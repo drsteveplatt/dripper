@@ -9,12 +9,13 @@
 //#include <SPI.h>
 //#include <RF24.h>
 #include <TaskManager.h>
+#include <Streaming.h>
 
 // length of the string
 // note: 0 is the bottom, 49 is the top
 #define LEN 50
 // Which pin the strip is on
-#define PIN 5
+#define PIN 14
 
 // tick length in ms (was: 60)
 #define TICKLEN 30
